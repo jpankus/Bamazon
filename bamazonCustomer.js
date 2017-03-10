@@ -48,7 +48,7 @@ var inventoryCheck = function (id, quantity){
 		var inventory = result[0].quantity - quantity;
 
 		if (inventory < 0){
-			console.log("Insufficient stock. There are only "+ result[0].quantity + "item(s) left.");
+			console.log("Insufficient stock. There are only " + result[0].quantity + "item(s) left.");
 		} else {
 			console.log("User has bought " + quantity + " " + result[0].product_name + " for $" + total);
 			console.log("There are " + inventory + " " + result[0].product_name + " remaining.")
