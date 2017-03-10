@@ -1,0 +1,27 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Bamazon Node Homework",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpankus/Bamazon.git"
+  },
+  "keywords": [
+    "bamazon"
+  ],
+  "author": "Jessica",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpankus/Bamazon/issues"
+  },
+  "homepage": "https://github.com/jpankus/Bamazon#readme",
+  "dependencies": {
+    "inquirer": "^3.0.6",
+    "mysql": "^2.13.0",
+    "prompt": "^1.0.0"
+  }
+}
